@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>365 Days of Manga Romance Story Prompts - Maitri Ukawala</title>
+    <meta name="description"
+        content="Never stare at a blank page again. Instantly generate heart-melting, addictive, and binge-worthy manga romance stories with our 365 Days of Manga Romance Story Prompts.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #E83E8C;
+            /* Romantic Pink */
+            --primary-dark: #C2185B;
+            --secondary-color: #FFF0F5;
+            /* Lavender Blush */
+            --text-main: #2C3E50;
+            --text-light: #546E7A;
+            --bg-body: #FAFAFA;
+            --bg-white: #FFFFFF;
+            --accent-gold: #FFB300;
+            --accent-gold-hover: #FF8F00;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            font-size: 18px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Lora', serif;
+            color: var(--text-main);
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: var(--text-main);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Section */
+        .header {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #FFFFFF 100%);
+            padding: 60px 0 40px;
+            text-align: center;
+            border-bottom: 1px solid #F8BBD0;
+        }
+
+        .pre-headline {
+            color: var(--primary-color);
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 14px;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .main-title {
+            font-size: 48px;
+            font-weight: 700;
+            color: #1A1A1A;
+            margin-bottom: 25px;
+        }
+
+        .main-title span {
+            color: var(--primary-color);
+        }
+
+        .subtitle {
+            font-size: 22px;
+            color: var(--text-light);
+            max-width: 700px;
+            margin: 0 auto 40px;
+            font-weight: 400;
+        }
+
+        /* Video/Mockup Container */
+        .hero-mockup {
+            max-width: 700px;
+            margin: 0 auto 40px;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            background: var(--bg-white);
+            border: 5px solid white;
+        }
+
+        .hero-mockup img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Buttons */
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent-gold);
+            color: #212121;
+            font-size: 24px;
+            font-weight: 800;
+            text-decoration: none;
+            padding: 20px 50px;
+            border-radius: 50px;
+            box-shadow: 0 10px 20px rgba(255, 179, 0, 0.3);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            border: 2px solid #FFA000;
+        }
+
+        .cta-button:hover {
+            background-color: var(--accent-gold-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 25px rgba(255, 179, 0, 0.4);
+        }
+
+        .cta-subtext {
+            display: block;
+            font-size: 14px;
+            color: var(--text-light);
+            margin-top: 10px;
+        }
+
+        /* Story Section */
+        .story-section {
+            background-color: var(--bg-white);
+            padding: 80px 0;
+        }
+
+        .story-content {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 20px;
+        }
+
+        .story-content p {
+            margin-bottom: 25px;
+        }
+
+        .story-highlight {
+            background-color: var(--secondary-color);
+            padding: 30px;
+            border-left: 5px solid var(--primary-color);
+            border-radius: 0 8px 8px 0;
+            margin: 40px 0;
+            font-style: italic;
+            font-size: 22px;
+        }
+
+        /* Product Introduction */
+        .product-intro {
+            background-color: #1A1A1A;
+            color: #FFFFFF;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .product-intro h2 {
+            color: #FFFFFF;
+            font-size: 40px;
+        }
+
+        .product-intro p {
+            color: #CCCCCC;
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+
+        /* Modules Section */
+        .modules-section {
+            padding: 80px 0;
+            background-color: var(--bg-body);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 42px;
+            margin-bottom: 60px;
+        }
+
+        .module-card {
+            background: var(--bg-white);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            margin-bottom: 40px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #EEEEEE;
+        }
+
+        @media (min-width: 768px) {
+            .module-card {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .module-card:nth-child(even) {
+                flex-direction: row-reverse;
+            }
+
+            .module-content,
+            .module-image {
+                flex: 1;
+            }
+        }
+
+        .module-image {
+            padding: 30px;
+            background-color: #FDFDFD;
+            text-align: center;
+        }
+
+        .module-image img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .module-content {
+            padding: 40px;
+        }
+
+        .module-tag {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .module-content h3 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .module-content p {
+            color: var(--text-light);
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+
+        /* Bonus Section */
+        .bonus-section {
+            background: linear-gradient(135deg, #2C3E50 0%, #1A252F 100%);
+            padding: 80px 0;
+            color: white;
+            text-align: center;
+        }
+
+        .bonus-section h2 {
+            color: var(--accent-gold);
+            font-size: 40px;
+        }
+
+        .bonus-section p {
+            color: #E0E0E0;
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .bonus-box {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px dashed rgba(255, 255, 255, 0.2);
+            padding: 40px;
+            border-radius: 12px;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        .bonus-box h3 {
+            color: white;
+            font-size: 26px;
+        }
+
+        /* Guarantee Section */
+        .guarantee-section {
+            padding: 80px 0;
+            background-color: var(--bg-white);
+            text-align: center;
+        }
+
+        .guarantee-box {
+            max-width: 700px;
+            margin: 0 auto;
+            border: 3px solid var(--accent-gold);
+            border-radius: 15px;
+            padding: 50px 40px;
+            background-color: #FFFDE7;
+        }
+
+        .guarantee-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .guarantee-box h3 {
+            font-size: 32px;
+            color: #333;
+        }
+
+        .guarantee-box p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* Footer / Sign Off */
+        .footer-section {
+            padding: 60px 0;
+            background-color: var(--bg-body);
+            text-align: left;
+            border-top: 1px solid #EEEEEE;
+        }
+
+        .sign-off {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 20px;
+        }
+
+        .signature {
+            font-family: 'Lora', serif;
+            font-size: 32px;
+            color: var(--primary-color);
+            font-style: italic;
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        .support-email {
+            font-weight: 600;
+            color: var(--text-main);
+            text-decoration: none;
+        }
+
+        .support-email:hover {
+            color: var(--primary-color);
+        }
+
+        .center-cta {
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        /* Utility */
+        .text-center {
+            text-align: center;
+        }
+
+        .mt-40 {
+            margin-top: 40px;
+        }
+
+        .mb-20 {
+            margin-bottom: 20px;
+        }
+
+        .fw-bold {
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <span class="pre-headline">For Aspiring & Professional Manga Creators</span>
+            <h1 class="main-title">Build A Binge-Worthy <span>Manga Romance</span> Franchise.</h1>
+            <p class="subtitle">Instantly Generate Heart-Melting, Addictive, and Binge-Worthy Manga Romance Stories That
+                Keep Readers Begging For More!</p>
+
+            <div class="hero-mockup">
+                <img src="main%20mockup.png" alt="365 Days of Manga Romance Story Prompts Main Box">
+            </div>
+
+            <div class="text-center mt-40">
+                <a href="#checkout" class="cta-button">Yes, I Want Instant Access for Just $13!</a>
+                <span class="cta-subtext">One-Time Payment of $13 • Secure Checkout via WarriorPlus • Instant
+                    Delivery</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Story Section -->
+    <section class="story-section">
+        <div class="container">
+            <div class="story-content">
+                <p>She was a freelance artist. A graphic designer. A commission illustrator. She kept abandoning every webtoon she ever started.</p>
+                <p>But one of her serialized manga now gets 110,000 views a day — and earns a full-time income on Patreon and Webtoon.</p>
+                <p>Miya grew up surrounded by manga. Her shelves were packed with shojo, isekai, and slice-of-life volumes. By middle school, she was drawing her own characters.</p>
+                <p>At thirteen, she discovered her first deep, emotionally complex romance manga. She realized that a story could make you feel something profoundly real — something your everyday life wasn't touching.</p>
+                <p>In college, Miya earned an art degree. But after graduation, nothing stuck. She took commissions. She designed logos. Every passion project ended the same way: writer's block by chapter three.</p>
+                <p>The industry was crowded. She had nothing to show for years of sketching.</p>
+                <p>Miya spent a year forcing herself to write a 30-chapter romance webtoon. She posted it online. A few dozen people read it.</p>
+                <p>The voice in her head kept saying exactly what the voice in yours is probably saying right now: <em>"This will never work. You'll never be a real creator. The market is too saturated."</em></p>
+                <p>Miya tried again anyway. But this time, she changed her approach. She launched a new romance series — and within weeks, it clawed its way to the top of the romance charts.</p>
+                <p>Her series now gets 110,000 views every single day. Readers constantly beg for the next update.</p>
+                <p>A woman who abandoned every project she ever started became one of the biggest names in indie manga romance.</p>
+                
+                <h3 style="font-size: 28px; margin-top: 40px; color: var(--primary-dark);">How did she do it?</h3>
+                <p>Miya understood what struggling creators missed. Readers don't just want beautiful art — they want an emotional hook. A serialized romance they can obsess over. Relationships that deepen over time.</p>
+                <p>So Miya built addictive serialized arcs, not standalone scenes.</p>
+                <p>She engineered a <strong>Serialized Manga Architecture</strong> — the exact structure romance readers had been starving for:</p>
+                
+                <ul style="margin-left: 20px; margin-bottom: 30px; color: var(--text-main);">
+                    <li style="margin-bottom: 10px;"><strong>Real emotional stakes, not just generic tropes.</strong> Tension that weaves through every interaction.</li>
+                    <li style="margin-bottom: 10px;"><strong>Multi-chapter romance arcs.</strong> Characters meet in Chapter 1, experience conflict through Chapter 10, find resolution by Chapter 20 — and readers feel every heartbeat.</li>
+                    <li style="margin-bottom: 10px;"><strong>Deep sensory anchors.</strong> The scent of rain, the texture of a knitted scarf, the lighting in a quiet coffee shop. Conflicts that resolve slowly because real love is complex.</li>
+                </ul>
+                
+                <p>Miya gave her readers an emotional world.</p>
+                <p>They gave her thousands of daily views — and the platform's algorithm rewarded her by pushing her series to every romance reader on the app.</p>
+                <p>The serialized romance feeds itself.</p>
+                
+                <div class="story-highlight">
+                    Here is the good news.
+                </div>
+                
+                <p>You don't need to spend a year failing at your first webtoon. You don't need to burn out on commissions. You don't need to gamble on whether readers will show up.</p>
+                <p>You can tap into the exact same hungry market Miya tapped into — building addictive manga romance universes across 6 different high-demand niches — using my collection of <strong>365 Days of Manga Romance Story Prompts</strong>.</p>
+                <p>You need one prompt. You paste it into ChatGPT. The system builds the emotional architecture for you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Introduction -->
+    <section class="product-intro">
+        <div class="container">
+            <h2>Introducing: 365 Days of Manga Romance Story Prompts</h2>
+            <p style="font-size: 22px; color: #FFF; margin-bottom: 30px;">This is not a generic list of "write me a manga romance story" prompts.</p>
+            <p>This is a Serialized Manga Universe Architecture System — 365 detailed blueprints where each one builds an entire scene, atmosphere, and romantic arc from the ground up.</p>
+            <p>The quiet, incense-filled antique shop in Kyoto. The sudden downpour that forces two rivals under the same umbrella.</p>
+            <p>The couple who cannot stop arguing in the student council room — because admitting they are attracted to each other would change everything.</p>
+            <p>Each prompt transforms ChatGPT into a dedicated AI co-writer that understands pacing, sensory anchors, and heavy tension.</p>
+            <p>Characters with real flaws and real warmth. A setting that breathes. A romantic arc that builds from awkward first encounters to the kind of love that makes readers cry on the last page.</p>
+            
+            <div style="margin-top: 40px;">
+                <a href="#checkout" class="cta-button">Give Me The Prompts for Only $13!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Demo Section -->
+    <section class="demo-section" style="padding: 80px 0; background-color: var(--secondary-color);">
+        <div class="container">
+            <h2 class="section-title" style="margin-bottom: 20px;">See It In Action! Try This Demo Prompt</h2>
+            <p style="text-align: center; max-width: 700px; margin: 0 auto 40px; color: var(--text-main);">Curious how well this works? Copy the exact prompt below and paste it into ChatGPT right now. You'll instantly see how these structured blueprints generate breathtaking, emotionally gripping manga romance scenes.</p>
+            
+            <div class="demo-box" style="background: var(--bg-white); border: 2px dashed var(--primary-color); padding: 40px; border-radius: 12px; font-family: monospace; font-size: 16px; color: #333; line-height: 1.8; max-width: 800px; margin: 0 auto; box-shadow: 0 10px 20px rgba(232, 62, 140, 0.1);">
+                Act as a best-selling shojo/manga romance author. Using the short story blueprint provided, write a deep, emotional, and atmospheric narrative of at least 700 to 1000 words. <br><br>
+                Follow this pacing rule:<br>
+                * First 200 words: Establish the atmosphere, the setting, and the protagonist's internal state.<br>
+                * Middle 400 words: Focus on micro-movements, heavy tension, dialogue, and physical proximity.<br>
+                * Final 200 words: The emotional turning point where the characters drop their walls, ending on a resonant, satisfying note.<br>
+                Focus heavily on sensory anchors (scents, textures, lighting) and internal monologues.<br><br>
+                The Kyoto Translation<br>
+                Genre: Historical Romance / Slice of Life<br>
+                The Vibe: Nostalgic, gentle, and longing<br>
+                Characters: * Ken (The Antique Shop Owner)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Rina (The Visiting Translator)<br>
+                Setting: A quiet, incense-filled antique shop in Kyoto during a rainy spring evening.<br>
+                The Blueprint: Rina is struggling to translate an old, delicate diary she found in the shop, her eyes tired in the dim light. Ken brings her a cup of hot roasted tea and sits beside her to help decipher the complex characters. As they both lean in to read the handwritten notes, Ken's hand brushes against hers, and he shares a personal memory about the diary's previous owner, creating a soft, warm connection between them.
+            </div>
+            
+            <div class="text-center mt-40">
+                <p style="text-align: center; font-style: italic; color: var(--text-light); margin-bottom: 20px;">Try it yourself, then imagine having 365 of these ready to go!</p>
+                <a href="#checkout" class="cta-button" style="font-size: 20px; padding: 15px 40px;">Get 365 Prompts for Just $13!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Powers the Engine Section -->
+    <section class="engine-section" style="padding: 80px 0; background-color: var(--bg-white);">
+        <div class="container">
+            <h2 class="section-title">What Powers The Manga Story Engine</h2>
+            <div class="story-content">
+                <p>Manga readers are the sharpest critics on the internet. They notice when a character's emotional progression feels rushed. They drop series when the tension fizzles out.</p>
+                <p>This is the wall that kills AI-generated stories. Generic prompts write a beautiful first paragraph — and then turn into a cliché, soulless summary by the end.</p>
+                <p>That problem ends here.</p>
+                <p>The 365 Days of Manga Romance Prompts are built on <strong>Blueprint Architecture</strong> — three layers of structured storytelling that produce narratives your readers will obsess over:</p>
+                
+                <div class="highlight-box" style="background: var(--bg-body); padding: 30px; border-radius: 12px; margin-bottom: 20px; border-left: 5px solid var(--primary-color); box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                    <h3 style="color: var(--primary-dark); margin-bottom: 10px; font-size: 24px;">Layer 1 — The Atmosphere Setup</h3>
+                    <p style="margin-bottom: 0;">Every prompt instantly establishes the setting, the vibe, and the protagonist's internal state. Not a vague outline — a living, breathing environment with specific sensory anchors like the scent of roasted tea or the sound of humming rain.</p>
+                </div>
+
+                <div class="highlight-box" style="background: var(--bg-body); padding: 30px; border-radius: 12px; margin-bottom: 20px; border-left: 5px solid var(--primary-color); box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                    <h3 style="color: var(--primary-dark); margin-bottom: 10px; font-size: 24px;">Layer 2 — The Micro-Movement Focus</h3>
+                    <p style="margin-bottom: 0;">Instead of rushing to the kiss, the prompts force the AI to focus on heavy tension, unspoken dialogue, and physical proximity. The real meaning lives in what characters do <em>not</em> say. The fleeting touch. The loaded glance.</p>
+                </div>
+
+                <div class="highlight-box" style="background: var(--bg-body); padding: 30px; border-radius: 12px; margin-bottom: 20px; border-left: 5px solid var(--primary-color); box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                    <h3 style="color: var(--primary-dark); margin-bottom: 10px; font-size: 24px;">Layer 3 — The Emotional Turning Point</h3>
+                    <p style="margin-bottom: 0;">A structured emotional climax where characters finally drop their walls, ending on a resonant, satisfying note that leaves readers begging for the next chapter.</p>
+                </div>
+                
+                <p style="margin-top: 30px;">These three layers produce something no other AI writing tool offers: scenes that feel like they were written by a veteran mangaka. The romance unfolds with the patience and emotional honesty that readers demand.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Manga Romance Section -->
+    <section class="market-section" style="padding: 80px 0; background-color: var(--secondary-color);">
+        <div class="container">
+            <h2 class="section-title">Why Manga Romance? Why Now?</h2>
+            <div class="story-content">
+                <p>Traditional publishing and mainstream media underestimated romance manga for decades. They chased action shonen and thrillers while dismissing romance as "formula." They were wrong.</p>
+                <p>On platforms like Webtoon, Tapas, and Amazon Kindle, a fiercely loyal readership has been devouring romance manga and light novels at a pace that would stun any traditional publisher. These readers are not casual. They binge an entire 50-chapter series in a weekend and immediately hunt for the next one.</p>
+                <p>The numbers tell the story:</p>
+                <ul style="margin-left: 20px; margin-bottom: 30px; color: var(--text-main);">
+                    <li style="margin-bottom: 10px;"><strong>Romance is the highest-earning genre</strong> on digital comic platforms, generating millions in fast-pass and coin unlocks.</li>
+                    <li style="margin-bottom: 10px;"><strong>Readers are voracious binge-consumers.</strong> They refuse to stop mid-arc, driving massive readthrough rates and algorithm favorability.</li>
+                    <li style="margin-bottom: 10px;">Top romance series sustain daily readership year-round because the audience is loyal, genre-devoted, and deeply invested in the characters.</li>
+                </ul>
+                <p>This is a market where a single well-built romance can quietly attract a fiercely loyal readership that returns for every chapter you publish. That is the opening. That is what 365 Days of Manga Romance Story Prompts puts into your hands.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section class="how-to-section" style="padding: 80px 0; background-color: var(--bg-white);">
+        <div class="container">
+            <h2 class="section-title">How to Use These Story Prompts</h2>
+            <div class="story-content">
+                <h3 style="color: var(--primary-color); font-size: 24px; margin-bottom: 15px;">Step 1: Pick Your Trope</h3>
+                <p style="margin-bottom: 30px;">Choose any blueprint from the 6 romance modules — whether it's a slow-burn Dark Academia mystery, a sweet Slice-of-Life moment, or an intense Isekai fantasy. Paste it directly into ChatGPT.</p>
+
+                <h3 style="color: var(--primary-color); font-size: 24px; margin-bottom: 15px;">Step 2: Generate the Scene</h3>
+                <p style="margin-bottom: 30px;">Watch as the AI instantly generates 700 to 1,000 words of perfectly paced, highly emotional narrative. The scene will be packed with sensory details, realistic dialogue, and heavy romantic tension.</p>
+
+                <h3 style="color: var(--primary-color); font-size: 24px; margin-bottom: 15px;">Step 3: Adapt and Publish</h3>
+                <p style="margin-bottom: 30px;">Use the generated story as the script for your next webtoon episode, the foundation of your light novel chapter, or the inspiration for your doujinshi. Publish and watch your audience grow!</p>
+                
+                <div style="background: var(--secondary-color); padding: 30px; border-radius: 12px; text-align: center; border: 2px dashed var(--primary-color);">
+                    <h4 style="font-size: 22px; margin-bottom: 10px; color: var(--primary-dark);">Three steps. One prompt per scene.</h4>
+                    <p style="margin-bottom: 0;">A complete, emotionally gripping manga romance franchise at your fingertips.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modules Section -->
+    <section class="modules-section">
+        <div class="container">
+            <h2 class="section-title">Here is Exactly What You Get Inside...</h2>
+
+            <!-- Part 1 -->
+            <div class="module-card">
+                <div class="module-image">
+                    <img src="B%201.png" alt="High School & Slice of Life Prompts">
+                </div>
+                <div class="module-content">
+                    <span class="module-tag">Part 1</span>
+                    <h3>High School & Slice of Life</h3>
+                    <p>Capture the innocent, fluttering feelings of first love. From secret glances in the classroom to
+                        dramatic confessions under the cherry blossoms, these prompts provide the perfect foundation for
+                        sweet, relatable, and heartwarming youth romance.</p>
+                </div>
+            </div>
+
+            <!-- Part 2 -->
+            <div class="module-card">
+                <div class="module-image">
+                    <img src="B%202.png" alt="Fantasy & Isekai Romance Prompts">
+                </div>
+                <div class="module-content">
+                    <span class="module-tag">Part 2</span>
+                    <h3>Fantasy & Isekai Romance</h3>
+                    <p>Transport your readers to magical realms. Whether it's a villainess seeking redemption, a knight
+                        falling for a mage, or a modern girl reincarnated into an empire, these prompts weave grand
+                        adventures with deep, passionate love stories.</p>
+                </div>
+            </div>
+
+            <!-- Part 3 -->
+            <div class="module-card">
+                <div class="module-image">
+                    <img src="B%203.png" alt="Office & Mature Romance Prompts">
+                </div>
+                <div class="module-content">
+                    <span class="module-tag">Part 3</span>
+                    <h3>Office & Mature Romance</h3>
+                    <p>Navigate the complex, tension-filled world of adult relationships. Boss/employee dynamics,
+                        forbidden workplace flings, and the struggle of balancing ambition with desire. Perfect for
+                        creating gripping, sophisticated Josei-style narratives.</p>
+                </div>
+            </div>
+
+            <!-- Part 4 -->
+            <div class="module-card">
+                <div class="module-image">
+                    <img src="B%204.png" alt="Supernatural & Yokai Romance Prompts">
+                </div>
+                <div class="module-content">
+                    <span class="module-tag">Part 4</span>
+                    <h3>Supernatural & Yokai Romance</h3>
+                    <p>Add a touch of the unknown. Vampires, kitsune, demons, and ghosts. These prompts blend danger,
+                        mystery, and seductive tension, perfect for stories where love transcends the boundary between
+                        the human and spiritual worlds.</p>
+                </div>
+            </div>
+
+            <!-- Part 5 -->
+            <div class="module-card">
+                <div class="module-image">
+                    <img src="B%205.png" alt="Dark Academia & Mystery Prompts">
+                </div>
+                <div class="module-content">
+                    <span class="module-tag">Part 5</span>
+                    <h3>Dark Academia & Mystery</h3>
+                    <p>Secrets, elite boarding schools, and gothic romance. Uncover hidden truths and dangerous
+                        passions. These prompts are designed to keep your readers on the edge of their seats, combining
+                        thrilling mysteries with intense emotional connections.</p>
+                </div>
+            </div>
+
+            <!-- Part 6 -->
+            <div class="module-card">
+                <div class="module-image">
+                    <img src="B%206.png" alt="Cozy & Healing Romance Prompts">
+                </div>
+                <div class="module-content">
+                    <span class="module-tag">Part 6</span>
+                    <h3>Cozy & Healing Romance</h3>
+                    <p>Sometimes, love is a quiet cup of coffee on a rainy day. These "Iyashikei" (healing) prompts
+                        focus on slow-burn, comforting relationships that soothe the soul, mend broken hearts, and bring
+                        warmth to your readers.</p>
+                </div>
+            </div>
+
+            <div class="center-cta">
+                <a href="#checkout" class="cta-button">I'm Ready to Start Creating - Just $13!</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Tropes Section -->
+    <section class="tropes-section" style="padding: 80px 0; background-color: var(--secondary-color);">
+        <div class="container">
+            <h2 class="section-title">Create Across 30+ Bestselling Manga Romance Tropes</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 40px; color: var(--text-main);">These categories represent the exact tropes where manga readers are constantly searching for their next obsession. From Enemies-to-Lovers to Villainess Isekai, every high-demand niche is covered.</p>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; max-width: 850px; margin: 0 auto;">
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Enemies to Lovers</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Villainess Isekai</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Grumpy & Sunshine</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Fake Dating Contract</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Childhood Friends Reunion</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Secret Office Romance</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Royal Marriage of Convenience</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Vampire & Human</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Yokai Contract</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Slow Burn Slice-of-Life</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Reincarnated Rivalry</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Dark Academia Mystery</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Cafe Workplace Flirtation</span>
+                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">And Dozens More...</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience Section -->
+    <section class="audience-section" style="padding: 80px 0; background-color: var(--bg-white);">
+        <div class="container">
+            <h2 class="section-title">Who Is This Perfect For?</h2>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 800px; margin: 0 auto;">
+                <div style="background: var(--bg-body); padding: 30px; border-radius: 12px; border-left: 5px solid var(--primary-color);">
+                    <h4 style="font-size: 22px; margin-bottom: 15px; color: var(--text-main);">🎨 Webtoon & Manga Artists</h4>
+                    <p style="font-size: 16px; color: var(--text-light); margin-bottom: 0;">Stop burning out on scriptwriting. Generate your episode plots and emotional beats instantly, so you can focus entirely on your art.</p>
+                </div>
+                <div style="background: var(--bg-body); padding: 30px; border-radius: 12px; border-left: 5px solid var(--primary-color);">
+                    <h4 style="font-size: 22px; margin-bottom: 15px; color: var(--text-main);">📝 Light Novel Authors</h4>
+                    <p style="font-size: 16px; color: var(--text-light); margin-bottom: 0;">Overcome blank-page syndrome. Use these blueprints to outline and draft full volumes of high-tension romantic fiction.</p>
+                </div>
+                <div style="background: var(--bg-body); padding: 30px; border-radius: 12px; border-left: 5px solid var(--primary-color);">
+                    <h4 style="font-size: 22px; margin-bottom: 15px; color: var(--text-main);">📚 KDP Self-Publishers</h4>
+                    <p style="font-size: 16px; color: var(--text-light); margin-bottom: 0;">Tap into the massive anime and manga-inspired romance market on Amazon. Build addictive franchises quickly.</p>
+                </div>
+                <div style="background: var(--bg-body); padding: 30px; border-radius: 12px; border-left: 5px solid var(--primary-color);">
+                    <h4 style="font-size: 22px; margin-bottom: 15px; color: var(--text-main);">✨ Doujinshi Creators</h4>
+                    <p style="font-size: 16px; color: var(--text-light); margin-bottom: 0;">Need a quick scenario for your next convention release? These prompts give you exactly the spark you need.</p>
+                </div>
+            </div>
+            
+            <!-- Mobile responsive styling for the grid -->
+            <style>
+                @media (max-width: 768px) {
+                    .audience-section div[style*="display: grid"] {
+                        grid-template-columns: 1fr !important;
+                    }
+                }
+            </style>
+        </div>
+    </section>
+    
+    <!-- Value Stack Recap -->
+    <section class="value-stack-section" style="padding: 60px 0; background-color: var(--secondary-color); border-top: 2px dashed #F8BBD0; border-bottom: 2px dashed #F8BBD0;">
+        <div class="container text-center">
+            <h2 style="font-size: 36px; margin-bottom: 40px; color: var(--primary-dark); font-family: 'Lora', serif;">Here Is Everything You Get Today</h2>
+            
+            <div style="max-width: 500px; margin: 0 auto; text-align: left; background: #FFF; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); border: 2px solid var(--primary-color);">
+                <ul style="list-style: none; padding: 0; margin: 0; font-size: 18px; font-weight: 600; color: var(--text-main);">
+                    <li style="margin-bottom: 15px; display: flex; justify-content: space-between; border-bottom: 1px solid #EEE; padding-bottom: 10px;">
+                        <span>✔️ 365 Serialized Manga Prompts</span>
+                        <span style="color: var(--text-light);">$47 Value</span>
+                    </li>
+                    <li style="margin-bottom: 15px; display: flex; justify-content: space-between; border-bottom: 1px solid #EEE; padding-bottom: 10px;">
+                        <span>✔️ 6 Core Romance Trope Modules</span>
+                        <span style="color: var(--text-light);">$27 Value</span>
+                    </li>
+                    <li style="margin-bottom: 15px; display: flex; justify-content: space-between; border-bottom: 1px solid #EEE; padding-bottom: 10px;">
+                        <span>✔️ The Blueprint Architecture System</span>
+                        <span style="color: var(--text-light);">$19 Value</span>
+                    </li>
+                    <li style="margin-bottom: 15px; display: flex; justify-content: space-between; padding-bottom: 10px;">
+                        <span>✔️ Fast Action Bonuses (Covers & Titles)</span>
+                        <span style="color: var(--text-light);">$19 Value</span>
+                    </li>
+                </ul>
+                
+                <div style="text-align: center; margin-top: 30px;">
+                    <p style="font-size: 16px; color: var(--text-light); text-decoration: line-through; margin-bottom: 5px;">Total Value: $112.00</p>
+                    <p style="font-size: 36px; color: var(--primary-dark); font-weight: 800; font-family: 'Lora', serif; margin-bottom: 20px;">Today Only: $13</p>
+                    <a href="#checkout" class="cta-button" style="font-size: 18px; padding: 15px 30px; width: 100%;">Give Me Instant Access</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonus Section -->
+    <section class="bonus-section">
+        <div class="container">
+            <h2>Wait... I Have A Special Bonus For You!</h2>
+            <p>To make sure you have absolutely <strong>everything</strong> you need to succeed, I'm including an
+                exclusive bonus if you act right now.</p>
+
+            <div class="bonus-box">
+                <h3>Fast Action Bonus:<br>Ready-To-Use Manga Book Covers & Title Ideas</h3>
+                <p class="mt-20">Don't waste time trying to design a cover from scratch or stressing over the perfect
+                    title. I'm handing over a collection of beautiful, customizable book cover templates alongside a
+                    swipe file of high-converting, irresistible manga titles.</p>
+                <p><strong>You can literally pick a prompt, grab a title, use a cover, and launch your story!</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="guarantee-section">
+        <div class="container">
+            <div class="guarantee-box">
+                <span class="guarantee-icon">🛡️</span>
+                <h3>My Iron-Clad 7-Day Money-Back Guarantee</h3>
+                <p class="mt-20">I am so confident that these prompts will completely cure your writer's block and flood
+                    you with inspiration that I'm taking all the risk.</p>
+                <p>Try "365 Days of Manga Romance Story Prompts" for a full 7 days. If you don't feel completely
+                    inspired, or if you simply don't like it for any reason at all, just send me an email.</p>
+                <p class="fw-bold">I will happily refund every single penny. No questions asked, no hard feelings.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Sign Off -->
+    <section class="footer-section">
+        <div class="container">
+            <div class="sign-off">
+                <p>Don't let another day pass by staring at a blank screen. Your readers are out there, waiting for your
+                    next great story. Let me help you give it to them.</p>
+                <p>Click the button below to get instant access right now.</p>
+
+                <div class="center-cta" style="margin: 40px 0;">
+                    <a href="#checkout" class="cta-button">Get Instant Access Now for $13!</a>
+                </div>
+
+                <p>To your success and endless creativity,</p>
+                <div class="signature">Maitri Ukawala</div>
+
+                <div
+                    style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #DDD; font-size: 16px; color: #666;">
+                    <p><strong>P.S.</strong> Have any questions or need support? You can always reach me personally at
+                        <a href="mailto:maitriukawala@gmail.com" class="support-email">maitriukawala@gmail.com</a>. I'm
+                        here to help you succeed!
+                    </p>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 40px 20px; font-size: 14px; color: #666; border-top: 1px solid #E0E0E0; background-color: var(--bg-body);">
+        <p>
+            <a href="https://www.nextwiseai.com/privacy" target="_blank" style="color: #666; text-decoration: none;">Privacy Policy</a> |
+            <a href="https://www.nextwiseai.com/disclaimer" target="_blank" style="color: #666; text-decoration: none;">Disclaimer</a> |
+            <a href="https://www.nextwiseai.com/support" target="_blank" style="color: #666; text-decoration: none;">Support</a>
+        </p>
+        <p style="margin-top: 10px; font-weight: normal;">&copy; 2026 NextWise AI. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
