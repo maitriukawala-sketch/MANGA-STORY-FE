@@ -4,42 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>365 Days of Manga Romance Story Prompts - Maitri Ukawala</title>
-    <meta name="description"
-        content="Never stare at a blank page again. Instantly generate heart-melting, addictive, and binge-worthy manga romance stories with our 365 Days of Manga Romance Story Prompts.">
+    <title>The Play Rebellion - 480+ Screen-Free Activity Prompts</title>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;600;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;800;900&display=swap"
         rel="stylesheet">
 
     <style>
         :root {
-            --primary-color: #E83E8C;
-            /* Romantic Pink */
-            --primary-dark: #C2185B;
-            --secondary-color: #FFF0F5;
-            /* Lavender Blush */
-            --text-main: #2C3E50;
-            --text-light: #546E7A;
-            --bg-body: #FAFAFA;
-            --bg-white: #FFFFFF;
-            --accent-gold: #FFB300;
-            --accent-gold-hover: #FF8F00;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+            --primary: #00B4D8;
+            /* Sky Blue */
+            --secondary: #FFD166;
+            /* Sunshine Yellow */
+            --accent: #EF476F;
+            /* Coral Orange */
+            --success: #06D6A0;
+            /* Mint Green */
+            --text-dark: #2B2D42;
+            --bg-body: #E0F7FA;
+            --bg-content: #FFFFFF;
         }
 
         body {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Nunito', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.8;
+            font-size: 1.15rem;
+            margin: 0;
+            padding: 0;
             background-color: var(--bg-body);
-            color: var(--text-main);
-            line-height: 1.6;
-            font-size: 18px;
             -webkit-font-smoothing: antialiased;
         }
 
@@ -47,793 +42,863 @@
         h2,
         h3,
         h4 {
-            font-family: 'Lora', serif;
-            color: var(--text-main);
-            margin-bottom: 20px;
-            line-height: 1.3;
+            font-family: 'Fredoka One', cursive;
+            line-height: 1.25;
+            margin-bottom: 25px;
+            color: var(--text-dark);
         }
 
-        p {
-            margin-bottom: 20px;
-            color: var(--text-main);
+        h2 {
+            font-size: 2.2rem;
+            color: var(--primary);
         }
 
         .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Header Section */
-        .header {
-            background: linear-gradient(135deg, var(--secondary-color) 0%, #FFFFFF 100%);
-            padding: 60px 0 40px;
-            text-align: center;
-            border-bottom: 1px solid #F8BBD0;
-        }
-
-        .pre-headline {
-            color: var(--primary-color);
-            font-weight: 800;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-size: 14px;
-            margin-bottom: 15px;
-            display: block;
-        }
-
-        .main-title {
-            font-size: 48px;
-            font-weight: 700;
-            color: #1A1A1A;
-            margin-bottom: 25px;
-        }
-
-        .main-title span {
-            color: var(--primary-color);
-        }
-
-        .subtitle {
-            font-size: 22px;
-            color: var(--text-light);
-            max-width: 700px;
-            margin: 0 auto 40px;
-            font-weight: 400;
-        }
-
-        /* Video/Mockup Container */
-        .hero-mockup {
-            max-width: 700px;
-            margin: 0 auto 40px;
-            border-radius: 12px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            background: var(--bg-white);
-            border: 5px solid white;
-        }
-
-        .hero-mockup img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        /* Buttons */
-        .cta-button {
-            display: inline-block;
-            background-color: var(--accent-gold);
-            color: #212121;
-            font-size: 24px;
-            font-weight: 800;
-            text-decoration: none;
-            padding: 20px 50px;
-            border-radius: 50px;
-            box-shadow: 0 10px 20px rgba(255, 179, 0, 0.3);
-            transition: all 0.3s ease;
-            text-transform: uppercase;
-            border: 2px solid #FFA000;
-        }
-
-        .cta-button:hover {
-            background-color: var(--accent-gold-hover);
-            transform: translateY(-3px);
-            box-shadow: 0 15px 25px rgba(255, 179, 0, 0.4);
-        }
-
-        .cta-subtext {
-            display: block;
-            font-size: 14px;
-            color: var(--text-light);
-            margin-top: 10px;
-        }
-
-        /* Story Section */
-        .story-section {
-            background-color: var(--bg-white);
-            padding: 80px 0;
-        }
-
-        .story-content {
-            max-width: 700px;
-            margin: 0 auto;
-            font-size: 20px;
-        }
-
-        .story-content p {
-            margin-bottom: 25px;
-        }
-
-        .story-highlight {
-            background-color: var(--secondary-color);
-            padding: 30px;
-            border-left: 5px solid var(--primary-color);
-            border-radius: 0 8px 8px 0;
-            margin: 40px 0;
-            font-style: italic;
-            font-size: 22px;
-        }
-
-        /* Product Introduction */
-        .product-intro {
-            background-color: #1A1A1A;
-            color: #FFFFFF;
-            padding: 80px 0;
-            text-align: center;
-        }
-
-        .product-intro h2 {
-            color: #FFFFFF;
-            font-size: 40px;
-        }
-
-        .product-intro p {
-            color: #CCCCCC;
-            max-width: 700px;
-            margin: 0 auto 40px;
-        }
-
-        /* Modules Section */
-        .modules-section {
-            padding: 80px 0;
-            background-color: var(--bg-body);
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 42px;
-            margin-bottom: 60px;
-        }
-
-        .module-card {
-            background: var(--bg-white);
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-            margin-bottom: 40px;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            border: 1px solid #EEEEEE;
-        }
-
-        @media (min-width: 768px) {
-            .module-card {
-                flex-direction: row;
-                align-items: center;
-            }
-
-            .module-card:nth-child(even) {
-                flex-direction: row-reverse;
-            }
-
-            .module-content,
-            .module-image {
-                flex: 1;
-            }
-        }
-
-        .module-image {
-            padding: 30px;
-            background-color: #FDFDFD;
-            text-align: center;
-        }
-
-        .module-image img {
-            max-width: 100%;
-            border-radius: 8px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .module-content {
-            padding: 40px;
-        }
-
-        .module-tag {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 5px 12px;
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: var(--bg-content);
+            padding: 50px 60px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
             border-radius: 20px;
-            font-size: 14px;
-            font-weight: 600;
-            display: inline-block;
-            margin-bottom: 15px;
+            overflow: hidden;
+            position: relative;
         }
 
-        .module-content h3 {
-            font-size: 28px;
-            margin-bottom: 15px;
-        }
-
-        .module-content p {
-            color: var(--text-light);
-            font-size: 18px;
-            margin-bottom: 0;
-        }
-
-        /* Bonus Section */
-        .bonus-section {
-            background: linear-gradient(135deg, #2C3E50 0%, #1A252F 100%);
-            padding: 80px 0;
-            color: white;
-            text-align: center;
-        }
-
-        .bonus-section h2 {
-            color: var(--accent-gold);
-            font-size: 40px;
-        }
-
-        .bonus-section p {
-            color: #E0E0E0;
-            font-size: 20px;
-            max-width: 700px;
-            margin: 0 auto 30px;
-        }
-
-        .bonus-box {
-            background: rgba(255, 255, 255, 0.05);
-            border: 2px dashed rgba(255, 255, 255, 0.2);
-            padding: 40px;
-            border-radius: 12px;
-            max-width: 600px;
-            margin: 0 auto 40px;
-        }
-
-        .bonus-box h3 {
-            color: white;
-            font-size: 26px;
-        }
-
-        /* Guarantee Section */
-        .guarantee-section {
-            padding: 80px 0;
-            background-color: var(--bg-white);
-            text-align: center;
-        }
-
-        .guarantee-box {
-            max-width: 700px;
-            margin: 0 auto;
-            border: 3px solid var(--accent-gold);
-            border-radius: 15px;
-            padding: 50px 40px;
-            background-color: #FFFDE7;
-        }
-
-        .guarantee-icon {
-            font-size: 60px;
-            margin-bottom: 20px;
-            display: block;
-        }
-
-        .guarantee-box h3 {
-            font-size: 32px;
-            color: #333;
-        }
-
-        .guarantee-box p {
-            font-size: 18px;
-            color: #555;
-        }
-
-        /* Footer / Sign Off */
-        .footer-section {
-            padding: 60px 0;
-            background-color: var(--bg-body);
-            text-align: left;
-            border-top: 1px solid #EEEEEE;
-        }
-
-        .sign-off {
-            max-width: 700px;
-            margin: 0 auto;
-            font-size: 20px;
-        }
-
-        .signature {
-            font-family: 'Lora', serif;
-            font-size: 32px;
-            color: var(--primary-color);
-            font-style: italic;
-            margin-top: 20px;
-            margin-bottom: 5px;
-        }
-
-        .support-email {
-            font-weight: 600;
-            color: var(--text-main);
-            text-decoration: none;
-        }
-
-        .support-email:hover {
-            color: var(--primary-color);
-        }
-
-        .center-cta {
-            text-align: center;
-            margin: 60px 0;
-        }
-
-        /* Utility */
         .text-center {
             text-align: center;
         }
 
-        .mt-40 {
-            margin-top: 40px;
+        .highlight {
+            background-color: var(--secondary);
+            padding: 0 10px;
+            border-radius: 5px;
+            color: var(--text-dark);
         }
 
-        .mb-20 {
+        .underline {
+            text-decoration: underline;
+            text-decoration-color: var(--primary);
+            text-decoration-thickness: 4px;
+        }
+
+        p {
+            margin-bottom: 25px;
+            color: #444;
+        }
+
+        /* Button Styling */
+        .cta-btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #fff;
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.7rem;
+            padding: 22px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 10px 20px rgba(239, 71, 111, 0.4);
+            margin: 20px 0;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            animation: pulse-btn 2s infinite;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-5px);
+            background-color: #d83a5e;
+            color: white;
+            box-shadow: 0 15px 30px rgba(239, 71, 111, 0.6);
+            animation: none;
+        }
+
+        @keyframes pulse-btn {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.02);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* Image Styling */
+        .product-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            border: 4px solid var(--primary);
+            margin: 30px auto;
+            display: block;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Hero Wrapper */
+        .hero-wrapper {
+            background: radial-gradient(circle at top center, #f4fbfc 0%, #ffffff 70%);
+            margin: -50px -60px 40px -60px;
+            padding: 60px 60px 40px 60px;
+            border-bottom: 3px dashed #d1eae8;
+        }
+
+        /* Lists */
+        .check-list {
+            list-style: none;
+            padding: 0;
+            margin: 30px auto;
+            max-width: 600px;
+        }
+
+        .check-list li {
+            font-size: 1.25rem;
+            font-weight: 800;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .check-list li::before {
+            content: '⭐';
+            margin-right: 15px;
+            font-size: 1.5rem;
+        }
+
+        /* Etsy Booming Section */
+        .booming-section {
+            background-color: #fdf5f5;
+            border-left: 6px solid var(--accent);
+            padding: 40px;
+            border-radius: 10px;
+            margin: 50px 0;
+        }
+
+        .booming-section h2 {
+            color: var(--accent);
+            font-size: 2.1rem;
+        }
+
+        .booming-section p {
+            font-size: 1.2rem;
+        }
+
+        /* Full Activities Modules Section */
+        .activity-module {
+            background-color: #fcfdfe;
+            border: 3px solid #e0f0f5;
+            padding: 40px;
+            border-radius: 20px;
+            margin-bottom: 50px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+            text-align: center;
+        }
+
+        .activity-module:nth-child(even) {
+            background-color: #fffdf5;
+            border-color: #fcf1d2;
+        }
+
+        .activity-module h3 {
+            font-size: 2.3rem;
+            margin-top: 0;
             margin-bottom: 20px;
         }
 
-        .fw-bold {
+        .activity-desc {
+            font-size: 1.25rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            text-align: left;
+            padding: 0 20px;
+        }
+
+        /* 4-Image Grid for Activities */
+        .module-gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .module-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .module-gallery img:hover {
+            transform: scale(1.05);
+            /* Fun hover effect for kids images */
+            border-color: var(--accent);
+            z-index: 10;
+            position: relative;
+        }
+
+        /* Dynamic Title Colors */
+        .am-1 h3 {
+            color: var(--primary);
+        }
+
+        .am-2 h3 {
+            color: var(--accent);
+        }
+
+        .am-3 h3 {
+            color: var(--success);
+        }
+
+        .am-4 h3 {
+            color: #f0a500;
+        }
+
+        /* Darker yellow for text */
+
+        /* Flexible Content Section */
+        .flex-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            margin: 50px 0;
+            background: #f8fcfd;
+            padding: 40px;
+            border-radius: 15px;
+            border-left: 5px solid var(--primary);
+        }
+
+        .flex-content img {
+            width: 50%;
+            border-radius: 15px;
+            border: 3px solid var(--secondary);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .flex-text {
+            width: 50%;
+        }
+
+        /* Bonuses Box */
+        .bonus-section {
+            background-color: #fff9eb;
+            border: 4px solid var(--secondary);
+            padding: 40px;
+            border-radius: 15px;
+            margin: 50px 0;
+        }
+
+        /* Value Stack */
+        .value-stack {
+            border: 4px solid var(--text-dark);
+            border-radius: 15px;
+            padding: 45px;
+            background: #fafafa;
+            position: relative;
+        }
+
+        .value-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.35rem;
+            font-weight: 800;
+            border-bottom: 2px dashed #ccc;
+            padding: 15px 0;
+        }
+
+        .value-row:last-of-type {
+            border-bottom: none;
+        }
+
+        /* Guarantee Box */
+        .guarantee-box {
+            border: 4px dashed var(--success);
+            background: #f2fdf9;
+            padding: 40px;
+            border-radius: 15px;
+            margin: 40px auto;
+            text-align: center;
+        }
+
+        .guarantee-box h3 {
+            font-size: 2.2rem;
+            color: var(--success);
+            margin-top: 0;
+        }
+
+        /* FAQ */
+        .faq-item {
+            margin-bottom: 25px;
+            background: #f8f9fa;
+            padding: 20px 30px;
+            border-radius: 10px;
+            border-left: 5px solid var(--primary);
+        }
+
+        .faq-q {
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.3rem;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .faq-a {
             font-weight: 700;
+            margin: 0;
+        }
+
+        /* Footer */
+        .site-footer {
+            text-align: center;
+            padding: 40px 0 20px 0;
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #6c757d;
+        }
+
+        .site-footer a {
+            color: #6c757d;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.2s;
+        }
+
+        .site-footer a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+                margin: 15px;
+            }
+
+            .hero-wrapper {
+                margin: -30px -20px 30px -20px;
+                padding: 40px 20px 30px 20px;
+            }
+
+            h1 {
+                font-size: 2.3rem !important;
+            }
+
+            h2 {
+                font-size: 1.9rem;
+            }
+
+            /* Make 4 images stack 2x2 on mobile for better visibility */
+            .module-gallery {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+
+            .flex-content {
+                flex-direction: column;
+            }
+
+            .flex-content img,
+            .flex-content .flex-text {
+                width: 100%;
+            }
+
+            .cta-btn {
+                font-size: 1.4rem;
+                padding: 15px 25px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .value-row {
+                font-size: 1.1rem;
+            }
+
+            .activity-desc {
+                padding: 0;
+            }
         }
     </style>
 </head>
 
 <body>
-    <img src="https://warriorplus.com/o2/btn/pn100011001/n97y4b/kfnf63/464250" height="1" width="1" style="visibility: hidden;">
+    <img src="https://warriorplus.com/o2/btn/pn100011001/vtzs83/ytccyg/465928" height="1" width="1" style="visibility: hidden;">
 
-    <!-- Header Section -->
-    <header class="header">
-        <div class="container">
-            <span class="pre-headline">For Aspiring & Professional Manga Creators</span>
-            <h1 class="main-title">Build A Binge-Worthy <span>Manga Romance</span> Franchise.</h1>
-            <p class="subtitle">Instantly Generate Heart-Melting, Addictive, and Binge-Worthy Manga Romance Stories That
-                Keep Readers Begging For More!</p>
+    <div class="container">
 
-            <div class="hero-mockup">
-                <img src="main%20mockup.png" alt="365 Days of Manga Romance Story Prompts Main Box">
+        <!-- =========================
+         IMPROVED HERO SECTION
+    ========================= -->
+        <div class="hero-wrapper text-center">
+            <!-- New Catchy Header Badge -->
+            <div style="margin-bottom: 25px;">
+                <span
+                    style="background-color: var(--secondary); color: var(--text-dark); padding: 8px 20px; border-radius: 30px; font-family: 'Fredoka One', cursive; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    🎯 Your Complete Activity Solution
+                </span>
             </div>
 
-            <div class="text-center mt-40">
-                <a href="https://warriorplus.com/o2/buy/n97y4b/kfnf63/gnlr4h" class="cta-button">Yes, I Want Instant Access for Just $13!</a>
-                <span class="cta-subtext">One-Time Payment of $13 • Secure Checkout via WarriorPlus • Instant
-                    Delivery</span>
+            <h1 style="font-size: 3.5rem; margin-bottom: 20px; text-shadow: 2px 2px 0px rgba(0,0,0,0.05); line-height: 1.3;">
+                <span style="color: #7209B7; font-weight: 900;">480+ Kids' Screen-Free Activity Prompts</span>
+            </h1>
+
+            <p
+                style="font-size: 1.5rem; color: var(--primary); font-weight: 700; margin-bottom: 15px;">
+                The Complete Collection for Ages 5–10
+            </p>
+
+            <p
+                style="font-size: 1.3rem; font-weight: 800; max-width: 800px; margin: 0 auto 30px auto; color: #4a4a4a;">
+                480 printable activities to keep kids engaged, thinking, and having <span
+                    style="background-color: var(--secondary); color: var(--text-dark); padding: 2px 10px; border-radius: 5px;">pure fun</span>
+            </p>
+
+            <!-- GET BUTTON -->
+            <a href="https://warriorplus.com/o2/buy/vtzs83/ytccyg/dktmmb" class="cta-btn">Get Instant Access - $14</a>
+
+            <p style="font-size: 1rem; color: #888; font-weight: bold; margin-top: -10px;">⭐ Instant PDF Download •
+                Secure Checkout</p>
+
+            <!-- MAIN PRODUCT IMAGE (main mockup.png) -->
+            <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/main%20mockup.png"
+                alt="480+ Kids' Screen-Free Activity Prompts Main Mockup" class="product-img"
+                style="margin-top: 40px; transform: rotate(-1deg);">
+        </div>
+
+        <!-- INTRODUCTION -->
+        <p style="font-size: 1.25rem;">Summer is the perfect time for children to explore, learn, laugh, and stay
+            active—but keeping kids entertained every day can be a massive challenge. <strong>That’s exactly why this
+                pack was created.</strong></p>
+
+        <p style="font-size: 1.25rem;">The <strong>480+ Kids' Screen-Free Activity Prompts</strong> is a huge collection
+            of creative printable activity prompts designed to keep children engaged, thinking, and having fun all
+            summer long. Inside, you’ll discover exciting games, brain-boosting puzzles, counting challenges,
+            spot-the-difference adventures, dot-to-dot discoveries, matching games, memory fun, and so much more.</p>
+
+        <p style="font-size: 1.25rem;">This product is specially designed for children ages 5 to 10, with activities
+            that beautifully balance fun and learning. Whether used at home, during travel, in classrooms, summer camps,
+            daycare centers, or rainy-day indoor play, these activities help children stay busy in a positive and
+            screen-free way.</p>
+
+        <hr style="border: 1px dashed #ccc; margin: 40px 0;">
+
+        <!-- WHAT MAKES IT SPECIAL -->
+        <div class="text-center">
+            <h2>What Makes This Pack Special?</h2>
+            <p style="font-size: 1.25rem;">Unlike ordinary worksheets, these prompts are built to create activities kids
+                actually enjoy. Every category is designed to naturally improve important developmental skills while
+                keeping the entire experience playful and exciting.</p>
+        </div>
+
+        <h3 class="text-center" style="margin-top: 40px; font-size: 1.8rem;">These fun games directly strengthen:</h3>
+        <ul class="check-list">
+            <li>Observation skills and attention to detail</li>
+            <li>Counting and number recognition</li>
+            <li>Focus and concentration spans</li>
+            <li>Memory skills and working memory</li>
+            <li>Logical thinking and pattern matching</li>
+            <li>Problem-solving ability</li>
+            <li>Fine motor skills (scissor use, pencil control)</li>
+            <li>Creative confidence and independent play</li>
+        </ul>
+
+        <!-- HIGHLIGHT: MULTIPLE THEMES -->
+        <div class="text-center"
+            style="margin-top: 50px; margin-bottom: 20px; padding: 35px; background-color: #f8fbfb; border-radius: 15px; border: 3px dashed var(--primary);">
+            <h3 style="font-size: 1.8rem; margin-top: 0; margin-bottom: 20px; color: var(--text-dark);">Generate
+                Activities in Dozens of Exciting Themes!</h3>
+            <p style="font-size: 1.25rem; margin-bottom: 25px;">You aren't stuck with just one boring style. These
+                prompts allow you to instantly create completely unique books covering whatever topics kids already
+                love:</p>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
+                <span
+                    style="background: var(--primary); color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 1.2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">🚀
+                    Outer Space</span>
+                <span
+                    style="background: var(--success); color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 1.2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">🦁
+                    Jungle Animals</span>
+                <span
+                    style="background: var(--accent); color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 1.2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">🚗
+                    Cool Vehicles</span>
+                <span
+                    style="background: #a06cd5; color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 1.2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">🧜‍♀️
+                    Magical Mermaids</span>
+                <span
+                    style="background: var(--secondary); color: var(--text-dark); padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 1.2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">🦕
+                    Dinosaurs</span>
+                <span
+                    style="background: #ff9800; color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 1.2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">🏴‍☠️
+                    Pirates</span>
+                <span
+                    style="background: #f08080; color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 1.2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">...And
+                    so many more!</span>
             </div>
         </div>
-    </header>
 
-    <!-- Story Section -->
-    <section class="story-section">
-        <div class="container">
-            <div class="story-content">
-                <p>She was a freelance artist. A graphic designer. A commission illustrator. She kept abandoning every webtoon she ever started.</p>
-                <p>But one of her serialized manga now gets 110,000 views a day — and earns a full-time income on Patreon and Webtoon.</p>
-                <p>Miya grew up surrounded by manga. Her shelves were packed with shojo, isekai, and slice-of-life volumes. By middle school, she was drawing her own characters.</p>
-                <p>At thirteen, she discovered her first deep, emotionally complex romance manga. She realized that a story could make you feel something profoundly real — something your everyday life wasn't touching.</p>
-                <p>In college, Miya earned an art degree. But after graduation, nothing stuck. She took commissions. She designed logos. Every passion project ended the same way: writer's block by chapter three.</p>
-                <p>The industry was crowded. She had nothing to show for years of sketching.</p>
-                <p>Miya spent a year forcing herself to write a 30-chapter romance webtoon. She posted it online. A few dozen people read it.</p>
-                <p>The voice in her head kept saying exactly what the voice in yours is probably saying right now: <em>"This will never work. You'll never be a real creator. The market is too saturated."</em></p>
-                <p>Miya tried again anyway. But this time, she changed her approach. She launched a new romance series — and within weeks, it clawed its way to the top of the romance charts.</p>
-                <p>Her series now gets 110,000 views every single day. Readers constantly beg for the next update.</p>
-                <p>A woman who abandoned every project she ever started became one of the biggest names in indie manga romance.</p>
-                
-                <h3 style="font-size: 28px; margin-top: 40px; color: var(--primary-dark);">How did she do it?</h3>
-                <p>Miya understood what struggling creators missed. Readers don't just want beautiful art — they want an emotional hook. A serialized romance they can obsess over. Relationships that deepen over time.</p>
-                <p>So Miya built addictive serialized arcs, not standalone scenes.</p>
-                <p>She engineered a <strong>Serialized Manga Architecture</strong> — the exact structure romance readers had been starving for:</p>
-                
-                <ul style="margin-left: 20px; margin-bottom: 30px; color: var(--text-main);">
-                    <li style="margin-bottom: 10px;"><strong>Real emotional stakes, not just generic tropes.</strong> Tension that weaves through every interaction.</li>
-                    <li style="margin-bottom: 10px;"><strong>Multi-chapter romance arcs.</strong> Characters meet in Chapter 1, experience conflict through Chapter 10, find resolution by Chapter 20 — and readers feel every heartbeat.</li>
-                    <li style="margin-bottom: 10px;"><strong>Deep sensory anchors.</strong> The scent of rain, the texture of a knitted scarf, the lighting in a quiet coffee shop. Conflicts that resolve slowly because real love is complex.</li>
+        <!-- =========================
+         NEW KDP & ETSY BOOMING SECTION
+    ========================= -->
+        <div class="booming-section">
+            <h2>🔥 Kids' Printables Are Booming on Etsy & Amazon KDP</h2>
+
+            <p><strong>Printable children's activities and summer learning books are rapidly growing in
+                    popularity</strong> across multiple bestselling categories on Etsy and Amazon KDP. Niches like
+                <em>Children’s Activity Books, Early Learning Workbooks, and Screen-Free Educational Printables</em> are
+                incredibly highly-searched right now.
+            </p>
+
+            <p>When you explore these marketplaces, you’ll consistently notice "I Spy" games, Dot-to-Dot books, and Cut
+                & Create activities dominating the front pages. Demand continues to skyrocket as parents and teachers
+                desperately search for hands-on learning tools to keep kids busy without relying on tablets or TVs.</p>
+
+            <p>What makes these specific activities so profitable is their blend of pure fun and deep educational value.
+                Kids genuinely love searching for hidden objects, finding differences, and building paper crafts—while
+                parents appreciate that these games quietly improve fine motor skills, logic, counting, and
+                problem-solving.</p>
+
+            <p style="font-size: 1.4rem; font-weight: 800; color: var(--primary); text-align: center; margin: 30px 0;">
+                Now imagine seeing your own name on the cover of a best-selling kids' summer activity book.</p>
+
+            <p><strong>No stress. No complicated planning.</strong> Just ready-to-use creative prompts designed to
+                instantly generate games, puzzles, and counting challenges step by step.</p>
+
+            <p>So you can focus on what truly matters: effortlessly publishing highly sought-after printable activity
+                books that parents, teachers, and homeschoolers love to buy again and again.</p>
+        </div>
+
+
+        <div class="text-center" style="margin: 50px 0;">
+            <a href="https://warriorplus.com/o2/buy/tmlmdf/nty5hw/kpdx2x" class="cta-btn">I Want To Build Printables Kids Enjoy!</a>
+        </div>
+
+        <hr style="border: 1px dashed #ccc; margin: 40px 0;">
+
+
+        <!-- =========================
+         THE 4 ACTIVITIES SHOWCASE
+    ========================= -->
+        <div class="text-center" style="margin-bottom: 50px;">
+            <h2 style="font-size: 2.8rem;">Dive Into The <span class="highlight">4 Action-Packed</span> Modules!</h2>
+            <p style="font-size: 1.35rem; max-width: 800px; margin: 0 auto;">There are <strong>120 fun-filled prompts
+                    included for every single category</strong> below. Take a look at the exact stunning quality you'll
+                be able to generate instantly!</p>
+        </div>
+
+        <!-- MODULE 1: I SPY -->
+        <div class="activity-module am-1">
+            <h3>1. I Spy Counting Games</h3>
+            <p class="activity-desc">Step into a world of hidden treasures! The <strong>I Spy Counting Games</strong>
+                section is packed with 120 uniquely designed prompts that challenge children to search, find, and count
+                hidden objects in playful, detailed scenes. This isn't just about counting—it builds intense visual
+                focus, improves short-term memory, and helps with object recognition. From bustling beaches to magical
+                forests, each generated worksheet feels like an adventure where kids get to play detective. It’s the
+                perfect blend of number practice and sheer entertainment!</p>
+
+            <div class="module-gallery">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/isp%201.png"
+                    alt="I Spy Sample 1">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/isp%202.png"
+                    alt="I Spy Sample 2">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/isp%203.png"
+                    alt="I Spy Sample 3">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/isp%204.png"
+                    alt="I Spy Sample 4">
+            </div>
+        </div>
+
+        <!-- MODULE 2: SPOT THE DIFFERENCE -->
+        <div class="activity-module am-2">
+            <h3>2. Spot the Difference Adventures</h3>
+            <p class="activity-desc">Sharpen those observation skills! Our <strong>Spot the Difference
+                    Adventures</strong> give kids the thrilling job of comparing two seemingly identical illustrations
+                to uncover sneaky, hidden changes. With 120 fun difference-finding prompts, this activity is incredibly
+                effective at developing a child's attention to detail, patience, and visual discrimination skills.
+                Whether it's a missing fish, a changed pirate hat, or a magically appearing star, hunting down every
+                difference gives kids a huge boost of confidence and an engaging challenge!</p>
+
+            <div class="module-gallery">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/sd%201.png"
+                    alt="Spot Difference Sample 1">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/sd%202.png"
+                    alt="Spot Difference Sample 2">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/sd%203.png"
+                    alt="Spot Difference Sample 3">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/sd%204.png"
+                    alt="Spot Difference Sample 4">
+            </div>
+        </div>
+
+        <!-- MODULE 3: DOT-TO-DOT -->
+        <div class="activity-module am-3">
+            <h3>3. Dot-to-Dot Discovery</h3>
+            <p class="activity-desc">Connect the dots to reveal the magic! The <strong>Dot-to-Dot Discovery</strong>
+                collection features 120 engaging prompts that guide children to follow numbered sequences, magically
+                transforming a chaotic splash of dots into a beautiful, hidden picture. This activity is a powerhouse
+                for learning: it naturally reinforces number order, builds hand-eye coordination, and perfects pencil
+                control—all while keeping kids in suspense about the final drawing. It’s a highly rewarding process that
+                leaves them with a fun coloring page once completed!</p>
+
+            <div class="module-gallery">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/dtd%201.png"
+                    alt="Dot to Dot Sample 1">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/dtd%202.png"
+                    alt="Dot to Dot Sample 2">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/dtd%203.png"
+                    alt="Dot to Dot Sample 3">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/dtd%204.png"
+                    alt="Dot to Dot Sample 4">
+            </div>
+        </div>
+
+        <!-- MODULE 4: CUT & CREATE -->
+        <div class="activity-module am-4">
+            <h3>4. Cut & Create Fun Book</h3>
+            <p class="activity-desc">Time to get hands-on with scissors and glue! The <strong>Cut & Create Fun
+                    Book</strong> comes with 120 exciting prompts where kids can cut out shapes, match pieces together,
+                and build their very own interactive scenes. Scissor skills are absolutely vital for fine motor
+                development, and this module makes practicing incredibly fun. They’ll be cutting out puzzle blocks,
+                matching missing pieces, and assembling creative pages. It turns a standard printable into a fully
+                physical, craft-building activity!</p>
+
+            <div class="module-gallery">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/CAP%201.png"
+                    alt="Cut Create Sample 1">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/CAT%202.png"
+                    alt="Cut Create Sample 2">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/CAP%203.png"
+                    alt="Cut Create Sample 3">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/CAT%204.png"
+                    alt="Cut Create Sample 4">
+            </div>
+        </div>
+
+
+
+        <!-- =========================
+         POST-ACTIVITIES INFO (MOCKUPS m2, m3, m4)
+    ========================= -->
+
+        <!-- Bundle Presentation (m2.png) -->
+        <div class="flex-content">
+            <div class="flex-text">
+                <h2>Everything In One <br><span style="color:var(--accent);">Massive Collection</span></h2>
+                <p>You don't just get one style of activity—you get 4 entire workbooks worth of content ready to
+                    generate. That's a total of 480 high-quality activities covering every aspect of early childhood
+                    cognitive development and motor skills.</p>
+                <p><strong>There's absolutely nothing left to chance. Just copy, paste, and let the summer fun
+                        begin!</strong></p>
+            </div>
+            <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/m2.png"
+                alt="Massive bundle layout">
+        </div>
+
+        <!-- Who is this perfect for? (m3.png) -->
+        <h2 class="text-center" style="margin-top: 60px;">Who Is This Perfect For?</h2>
+        <div
+            style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px; margin-top: 30px;">
+            <ul class="check-list" style="margin: 0; min-width: 300px;">
+                <li>Parents who want screen-free fun</li>
+                <li>Teacherpreneurs needing classroom printables</li>
+                <li>Homeschool families</li>
+                <li>Etsy and KDP publishers looking to scale</li>
+                <li>Summer camps & activity groups</li>
+                <li>Road trips & travel entertainment planners</li>
+            </ul>
+            <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/m3.png"
+                alt="Child having fun"
+                style="border-radius: 50%; border: 6px solid var(--secondary); max-width: 350px;">
+        </div>
+
+
+        <hr style="border: 1px dashed #ccc; margin: 50px 0;">
+
+
+        <!-- HOW TO USE THIS PACK - DETAILED -->
+        <div
+            style="margin-top: 60px; background-color: #fbfdff; border: 3px solid #e1f2f8; padding: 50px; border-radius: 20px;">
+            <h2 class="text-center" style="font-size: 2.3rem; margin-bottom: 20px;">How to Turn These Kids' Screen-Free Activity
+                Prompts Into
+                <span class="text-coral underline">Ready-to-Sell Products</span>
+            </h2>
+
+            <p class="text-center" style="font-size: 1.35rem; max-width: 800px; margin: 0 auto 30px auto;">You don’t
+                need to be a teacher, an educator, or a professional worksheet designer.</p>
+
+            <p style="font-size: 1.25rem; font-weight: bold; text-align: center; margin-bottom: 40px; color: #444;">
+                With the <em>480+ Kids' Screen-Free Activity Prompts</em>, creating engaging summer learning activities becomes
+                fast, simple, and completely stress-free — no lesson planning, no guesswork, and no starting from a
+                blank page. Here’s how it works:
+            </p>
+
+            <div
+                style="margin-bottom: 40px; padding: 30px; background: white; border-radius: 15px; border-left: 6px solid var(--primary); box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                <h3 style="color: var(--primary); font-size: 1.8rem; margin-top: 0;">⭐ Step 1: Build Your Base Activity
+                    Worksheets</h3>
+                <p style="font-size: 1.2rem;">Choose any prompt and paste it into ChatGPT. Within seconds, you’ll
+                    receive a clear, beginner-friendly worksheet foundation that includes:</p>
+                <ul style="list-style: none; padding-left: 0; font-size: 1.15rem; line-height: 1.8;">
+                    <li>✨ A short, child-friendly title and instructions</li>
+                    <li>✨ A ready-to-use concept for a puzzle, search game, or dot-to-dot</li>
+                    <li>✨ The exact elements needed to create the activity (like a list of items to count)</li>
+                    <li>✨ A clean, printable worksheet layout idea designed for young learners</li>
                 </ul>
-                
-                <p>Miya gave her readers an emotional world.</p>
-                <p>They gave her thousands of daily views — and the platform's algorithm rewarded her by pushing her series to every romance reader on the app.</p>
-                <p>The serialized romance feeds itself.</p>
-                
-                <div class="story-highlight">
-                    Here is the good news.
-                </div>
-                
-                <p>You don't need to spend a year failing at your first webtoon. You don't need to burn out on commissions. You don't need to gamble on whether readers will show up.</p>
-                <p>You can tap into the exact same hungry market Miya tapped into — building addictive manga romance universes across 6 different high-demand niches — using my collection of <strong>365 Days of Manga Romance Story Prompts</strong>.</p>
-                <p>You need one prompt. You paste it into ChatGPT. The system builds the emotional architecture for you.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- Product Introduction -->
-    <section class="product-intro">
-        <div class="container">
-            <h2>Introducing: 365 Days of Manga Romance Story Prompts</h2>
-            <p style="font-size: 22px; color: #FFF; margin-bottom: 30px;">This is not a generic list of "write me a manga romance story" prompts.</p>
-            <p>This is a Serialized Manga Universe Architecture System — 365 detailed blueprints where each one builds an entire scene, atmosphere, and romantic arc from the ground up.</p>
-            <p>The quiet, incense-filled antique shop in Kyoto. The sudden downpour that forces two rivals under the same umbrella.</p>
-            <p>The couple who cannot stop arguing in the student council room — because admitting they are attracted to each other would change everything.</p>
-            <p>Each prompt transforms ChatGPT into a dedicated AI co-writer that understands pacing, sensory anchors, and heavy tension.</p>
-            <p>Characters with real flaws and real warmth. A setting that breathes. A romantic arc that builds from awkward first encounters to the kind of love that makes readers cry on the last page.</p>
-            
-            <div style="margin-top: 40px;">
-                <a href="https://warriorplus.com/o2/buy/n97y4b/kfnf63/gnlr4h" class="cta-button">Give Me The Prompts for Only $13!</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Live Demo Section -->
-    <section class="demo-section" style="padding: 80px 0; background-color: var(--secondary-color);">
-        <div class="container">
-            <h2 class="section-title" style="margin-bottom: 20px;">See It In Action! Try This Demo Prompt</h2>
-            <p style="text-align: center; max-width: 700px; margin: 0 auto 40px; color: var(--text-main);">Curious how well this works? Copy the exact prompt below and paste it into ChatGPT right now. You'll instantly see how these structured blueprints generate breathtaking, emotionally gripping manga romance scenes.</p>
-            
-            <div class="demo-box" style="background: var(--bg-white); border: 2px dashed var(--primary-color); padding: 40px; border-radius: 12px; font-family: monospace; font-size: 16px; color: #333; line-height: 1.8; max-width: 800px; margin: 0 auto; box-shadow: 0 10px 20px rgba(232, 62, 140, 0.1);">
-                Act as a best-selling shojo/manga romance author. Using the short story blueprint provided, write a deep, emotional, and atmospheric narrative of at least 700 to 1000 words. <br><br>
-                Follow this pacing rule:<br>
-                * First 200 words: Establish the atmosphere, the setting, and the protagonist's internal state.<br>
-                * Middle 400 words: Focus on micro-movements, heavy tension, dialogue, and physical proximity.<br>
-                * Final 200 words: The emotional turning point where the characters drop their walls, ending on a resonant, satisfying note.<br>
-                Focus heavily on sensory anchors (scents, textures, lighting) and internal monologues.<br><br>
-                The Kyoto Translation<br>
-                Genre: Historical Romance / Slice of Life<br>
-                The Vibe: Nostalgic, gentle, and longing<br>
-                Characters: * Ken (The Antique Shop Owner)<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Rina (The Visiting Translator)<br>
-                Setting: A quiet, incense-filled antique shop in Kyoto during a rainy spring evening.<br>
-                The Blueprint: Rina is struggling to translate an old, delicate diary she found in the shop, her eyes tired in the dim light. Ken brings her a cup of hot roasted tea and sits beside her to help decipher the complex characters. As they both lean in to read the handwritten notes, Ken's hand brushes against hers, and he shares a personal memory about the diary's previous owner, creating a soft, warm connection between them.
-            </div>
-            
-            <div class="text-center mt-40">
-                <p style="text-align: center; font-style: italic; color: var(--text-light); margin-bottom: 20px;">Try it yourself, then imagine having 365 of these ready to go!</p>
-                <a href="https://warriorplus.com/o2/buy/n97y4b/kfnf63/gnlr4h" class="cta-button" style="font-size: 20px; padding: 15px 40px;">Get 365 Prompts for Just $13!</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- What Powers the Engine Section -->
-    <section class="engine-section" style="padding: 80px 0; background-color: var(--bg-white);">
-        <div class="container">
-            <h2 class="section-title">What Powers The Manga Story Engine</h2>
-            <div class="story-content">
-                <p>Manga readers are the sharpest critics on the internet. They notice when a character's emotional progression feels rushed. They drop series when the tension fizzles out.</p>
-                <p>This is the wall that kills AI-generated stories. Generic prompts write a beautiful first paragraph — and then turn into a cliché, soulless summary by the end.</p>
-                <p>That problem ends here.</p>
-                <p>The 365 Days of Manga Romance Prompts are built on <strong>Blueprint Architecture</strong> — three layers of structured storytelling that produce narratives your readers will obsess over:</p>
-                
-                <div class="highlight-box" style="background: var(--bg-body); padding: 30px; border-radius: 12px; margin-bottom: 20px; border-left: 5px solid var(--primary-color); box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
-                    <h3 style="color: var(--primary-dark); margin-bottom: 10px; font-size: 24px;">Layer 1 — The Atmosphere Setup</h3>
-                    <p style="margin-bottom: 0;">Every prompt instantly establishes the setting, the vibe, and the protagonist's internal state. Not a vague outline — a living, breathing environment with specific sensory anchors like the scent of roasted tea or the sound of humming rain.</p>
-                </div>
-
-                <div class="highlight-box" style="background: var(--bg-body); padding: 30px; border-radius: 12px; margin-bottom: 20px; border-left: 5px solid var(--primary-color); box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
-                    <h3 style="color: var(--primary-dark); margin-bottom: 10px; font-size: 24px;">Layer 2 — The Micro-Movement Focus</h3>
-                    <p style="margin-bottom: 0;">Instead of rushing to the kiss, the prompts force the AI to focus on heavy tension, unspoken dialogue, and physical proximity. The real meaning lives in what characters do <em>not</em> say. The fleeting touch. The loaded glance.</p>
-                </div>
-
-                <div class="highlight-box" style="background: var(--bg-body); padding: 30px; border-radius: 12px; margin-bottom: 20px; border-left: 5px solid var(--primary-color); box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
-                    <h3 style="color: var(--primary-dark); margin-bottom: 10px; font-size: 24px;">Layer 3 — The Emotional Turning Point</h3>
-                    <p style="margin-bottom: 0;">A structured emotional climax where characters finally drop their walls, ending on a resonant, satisfying note that leaves readers begging for the next chapter.</p>
-                </div>
-                
-                <p style="margin-top: 30px;">These three layers produce something no other AI writing tool offers: scenes that feel like they were written by a veteran mangaka. The romance unfolds with the patience and emotional honesty that readers demand.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Manga Romance Section -->
-    <section class="market-section" style="padding: 80px 0; background-color: var(--secondary-color);">
-        <div class="container">
-            <h2 class="section-title">Why Manga Romance? Why Now?</h2>
-            <div class="story-content">
-                <p>Traditional publishing and mainstream media underestimated romance manga for decades. They chased action shonen and thrillers while dismissing romance as "formula." They were wrong.</p>
-                <p>On platforms like Webtoon, Tapas, and Amazon Kindle, a fiercely loyal readership has been devouring romance manga and light novels at a pace that would stun any traditional publisher. These readers are not casual. They binge an entire 50-chapter series in a weekend and immediately hunt for the next one.</p>
-                <p>The numbers tell the story:</p>
-                <ul style="margin-left: 20px; margin-bottom: 30px; color: var(--text-main);">
-                    <li style="margin-bottom: 10px;"><strong>Romance is the highest-earning genre</strong> on digital comic platforms, generating millions in fast-pass and coin unlocks.</li>
-                    <li style="margin-bottom: 10px;"><strong>Readers are voracious binge-consumers.</strong> They refuse to stop mid-arc, driving massive readthrough rates and algorithm favorability.</li>
-                    <li style="margin-bottom: 10px;">Top romance series sustain daily readership year-round because the audience is loyal, genre-devoted, and deeply invested in the characters.</li>
+            <div
+                style="margin-bottom: 40px; padding: 30px; background: white; border-radius: 15px; border-left: 6px solid var(--accent); box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                <h3 style="color: var(--accent); font-size: 1.8rem; margin-top: 0;">⭐ Step 2: Generate & Structure By
+                    Difficulty</h3>
+                <p style="font-size: 1.2rem;">Run each prompt one at a time to instantly generate printable <em>I Spy,
+                        Spot the Difference, Dot-to-Dot, and Cut & Create</em> worksheets. <strong>We have specially
+                        organized all 480 prompts into 3 distinct difficulty levels</strong> so you can easily scale the
+                    challenge for different age groups!</p>
+                <ul style="list-style: none; padding-left: 0; font-size: 1.15rem; line-height: 1.8;">
+                    <li>✨ <strong>Level 1 (Beginner):</strong> Simple, clear, easy puzzles for younger minds.</li>
+                    <li>✨ <strong>Level 2 (Intermediate):</strong> Fun, slightly challenging tasks that require focus.
+                    </li>
+                    <li>✨ <strong>Level 3 (Advanced):</strong> Highly dense puzzles for maximum engagement.</li>
                 </ul>
-                <p>This is a market where a single well-built romance can quietly attract a fiercely loyal readership that returns for every chapter you publish. That is the opening. That is what 365 Days of Manga Romance Story Prompts puts into your hands.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- How to Use Section -->
-    <section class="how-to-section" style="padding: 80px 0; background-color: var(--bg-white);">
-        <div class="container">
-            <h2 class="section-title">How to Use These Story Prompts</h2>
-            <div class="story-content">
-                <h3 style="color: var(--primary-color); font-size: 24px; margin-bottom: 15px;">Step 1: Pick Your Trope</h3>
-                <p style="margin-bottom: 30px;">Choose any blueprint from the 6 romance modules — whether it's a slow-burn Dark Academia mystery, a sweet Slice-of-Life moment, or an intense Isekai fantasy. Paste it directly into ChatGPT.</p>
-
-                <h3 style="color: var(--primary-color); font-size: 24px; margin-bottom: 15px;">Step 2: Generate the Scene</h3>
-                <p style="margin-bottom: 30px;">Watch as the AI instantly generates 700 to 1,000 words of perfectly paced, highly emotional narrative. The scene will be packed with sensory details, realistic dialogue, and heavy romantic tension.</p>
-
-                <h3 style="color: var(--primary-color); font-size: 24px; margin-bottom: 15px;">Step 3: Adapt and Publish</h3>
-                <p style="margin-bottom: 30px;">Use the generated story as the script for your next webtoon episode, the foundation of your light novel chapter, or the inspiration for your doujinshi. Publish and watch your audience grow!</p>
-                
-                <div style="background: var(--secondary-color); padding: 30px; border-radius: 12px; text-align: center; border: 2px dashed var(--primary-color);">
-                    <h4 style="font-size: 22px; margin-bottom: 10px; color: var(--primary-dark);">Three steps. One prompt per scene.</h4>
-                    <p style="margin-bottom: 0;">A complete, emotionally gripping manga romance franchise at your fingertips.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Modules Section -->
-    <section class="modules-section">
-        <div class="container">
-            <h2 class="section-title">Here is Exactly What You Get Inside...</h2>
-
-            <!-- Part 1 -->
-            <div class="module-card">
-                <div class="module-image">
-                    <img src="B%201.png" alt="High School & Slice of Life Prompts">
-                </div>
-                <div class="module-content">
-                    <span class="module-tag">Part 1</span>
-                    <h3>High School & Slice of Life</h3>
-                    <p>Capture the innocent, fluttering feelings of first love. From secret glances in the classroom to
-                        dramatic confessions under the cherry blossoms, these prompts provide the perfect foundation for
-                        sweet, relatable, and heartwarming youth romance.</p>
-                </div>
             </div>
 
-            <!-- Part 2 -->
-            <div class="module-card">
-                <div class="module-image">
-                    <img src="B%202.png" alt="Fantasy & Isekai Romance Prompts">
-                </div>
-                <div class="module-content">
-                    <span class="module-tag">Part 2</span>
-                    <h3>Fantasy & Isekai Romance</h3>
-                    <p>Transport your readers to magical realms. Whether it's a villainess seeking redemption, a knight
-                        falling for a mage, or a modern girl reincarnated into an empire, these prompts weave grand
-                        adventures with deep, passionate love stories.</p>
-                </div>
-            </div>
-
-            <!-- Part 3 -->
-            <div class="module-card">
-                <div class="module-image">
-                    <img src="B%203.png" alt="Office & Mature Romance Prompts">
-                </div>
-                <div class="module-content">
-                    <span class="module-tag">Part 3</span>
-                    <h3>Office & Mature Romance</h3>
-                    <p>Navigate the complex, tension-filled world of adult relationships. Boss/employee dynamics,
-                        forbidden workplace flings, and the struggle of balancing ambition with desire. Perfect for
-                        creating gripping, sophisticated Josei-style narratives.</p>
-                </div>
-            </div>
-
-            <!-- Part 4 -->
-            <div class="module-card">
-                <div class="module-image">
-                    <img src="B%204.png" alt="Supernatural & Yokai Romance Prompts">
-                </div>
-                <div class="module-content">
-                    <span class="module-tag">Part 4</span>
-                    <h3>Supernatural & Yokai Romance</h3>
-                    <p>Add a touch of the unknown. Vampires, kitsune, demons, and ghosts. These prompts blend danger,
-                        mystery, and seductive tension, perfect for stories where love transcends the boundary between
-                        the human and spiritual worlds.</p>
-                </div>
-            </div>
-
-            <!-- Part 5 -->
-            <div class="module-card">
-                <div class="module-image">
-                    <img src="B%205.png" alt="Dark Academia & Mystery Prompts">
-                </div>
-                <div class="module-content">
-                    <span class="module-tag">Part 5</span>
-                    <h3>Dark Academia & Mystery</h3>
-                    <p>Secrets, elite boarding schools, and gothic romance. Uncover hidden truths and dangerous
-                        passions. These prompts are designed to keep your readers on the edge of their seats, combining
-                        thrilling mysteries with intense emotional connections.</p>
-                </div>
-            </div>
-
-            <!-- Part 6 -->
-            <div class="module-card">
-                <div class="module-image">
-                    <img src="B%206.png" alt="Cozy & Healing Romance Prompts">
-                </div>
-                <div class="module-content">
-                    <span class="module-tag">Part 6</span>
-                    <h3>Cozy & Healing Romance</h3>
-                    <p>Sometimes, love is a quiet cup of coffee on a rainy day. These "Iyashikei" (healing) prompts
-                        focus on slow-burn, comforting relationships that soothe the soul, mend broken hearts, and bring
-                        warmth to your readers.</p>
-                </div>
-            </div>
-
-            <div class="center-cta">
-                <a href="https://warriorplus.com/o2/buy/n97y4b/kfnf63/gnlr4h" class="cta-button">I'm Ready to Start Creating - Just $13!</a>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Tropes Section -->
-    <section class="tropes-section" style="padding: 80px 0; background-color: var(--secondary-color);">
-        <div class="container">
-            <h2 class="section-title">Create Across 30+ Bestselling Manga Romance Tropes</h2>
-            <p style="text-align: center; max-width: 800px; margin: 0 auto 40px; color: var(--text-main);">These categories represent the exact tropes where manga readers are constantly searching for their next obsession. From Enemies-to-Lovers to Villainess Isekai, every high-demand niche is covered.</p>
-            
-            <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; max-width: 850px; margin: 0 auto;">
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Enemies to Lovers</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Villainess Isekai</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Grumpy & Sunshine</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Fake Dating Contract</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Childhood Friends Reunion</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Secret Office Romance</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Royal Marriage of Convenience</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Vampire & Human</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Yokai Contract</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Slow Burn Slice-of-Life</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Reincarnated Rivalry</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Dark Academia Mystery</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">Cafe Workplace Flirtation</span>
-                <span style="background: var(--bg-white); padding: 10px 20px; border-radius: 30px; font-weight: 600; color: var(--primary-dark); box-shadow: 0 4px 6px rgba(0,0,0,0.05); border: 1px solid #F8BBD0;">And Dozens More...</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Target Audience Section -->
-    <section class="audience-section" style="padding: 80px 0; background-color: var(--bg-white);">
-        <div class="container">
-            <h2 class="section-title">Who Is This Perfect For?</h2>
-            
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 800px; margin: 0 auto;">
-                <div style="background: var(--bg-body); padding: 30px; border-radius: 12px; border-left: 5px solid var(--primary-color);">
-                    <h4 style="font-size: 22px; margin-bottom: 15px; color: var(--text-main);">🎨 Webtoon & Manga Artists</h4>
-                    <p style="font-size: 16px; color: var(--text-light); margin-bottom: 0;">Stop burning out on scriptwriting. Generate your episode plots and emotional beats instantly, so you can focus entirely on your art.</p>
-                </div>
-                <div style="background: var(--bg-body); padding: 30px; border-radius: 12px; border-left: 5px solid var(--primary-color);">
-                    <h4 style="font-size: 22px; margin-bottom: 15px; color: var(--text-main);">📝 Light Novel Authors</h4>
-                    <p style="font-size: 16px; color: var(--text-light); margin-bottom: 0;">Overcome blank-page syndrome. Use these blueprints to outline and draft full volumes of high-tension romantic fiction.</p>
-                </div>
-                <div style="background: var(--bg-body); padding: 30px; border-radius: 12px; border-left: 5px solid var(--primary-color);">
-                    <h4 style="font-size: 22px; margin-bottom: 15px; color: var(--text-main);">📚 KDP Self-Publishers</h4>
-                    <p style="font-size: 16px; color: var(--text-light); margin-bottom: 0;">Tap into the massive anime and manga-inspired romance market on Amazon. Build addictive franchises quickly.</p>
-                </div>
-                <div style="background: var(--bg-body); padding: 30px; border-radius: 12px; border-left: 5px solid var(--primary-color);">
-                    <h4 style="font-size: 22px; margin-bottom: 15px; color: var(--text-main);">✨ Doujinshi Creators</h4>
-                    <p style="font-size: 16px; color: var(--text-light); margin-bottom: 0;">Need a quick scenario for your next convention release? These prompts give you exactly the spark you need.</p>
-                </div>
-            </div>
-            
-            <!-- Mobile responsive styling for the grid -->
-            <style>
-                @media (max-width: 768px) {
-                    .audience-section div[style*="display: grid"] {
-                        grid-template-columns: 1fr !important;
-                    }
-                }
-            </style>
-        </div>
-    </section>
-    
-    <!-- Value Stack Recap -->
-    <section class="value-stack-section" style="padding: 60px 0; background-color: var(--secondary-color); border-top: 2px dashed #F8BBD0; border-bottom: 2px dashed #F8BBD0;">
-        <div class="container text-center">
-            <h2 style="font-size: 36px; margin-bottom: 40px; color: var(--primary-dark); font-family: 'Lora', serif;">Here Is Everything You Get Today</h2>
-            
-            <div style="max-width: 500px; margin: 0 auto; text-align: left; background: #FFF; padding: 40px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); border: 2px solid var(--primary-color);">
-                <ul style="list-style: none; padding: 0; margin: 0; font-size: 18px; font-weight: 600; color: var(--text-main);">
-                    <li style="margin-bottom: 15px; display: flex; justify-content: space-between; border-bottom: 1px solid #EEE; padding-bottom: 10px;">
-                        <span>✔️ 365 Serialized Manga Prompts</span>
-                        <span style="color: var(--text-light);">$47 Value</span>
-                    </li>
-                    <li style="margin-bottom: 15px; display: flex; justify-content: space-between; border-bottom: 1px solid #EEE; padding-bottom: 10px;">
-                        <span>✔️ 6 Core Romance Trope Modules</span>
-                        <span style="color: var(--text-light);">$27 Value</span>
-                    </li>
-                    <li style="margin-bottom: 15px; display: flex; justify-content: space-between; border-bottom: 1px solid #EEE; padding-bottom: 10px;">
-                        <span>✔️ The Blueprint Architecture System</span>
-                        <span style="color: var(--text-light);">$19 Value</span>
-                    </li>
-                    <li style="margin-bottom: 15px; display: flex; justify-content: space-between; padding-bottom: 10px;">
-                        <span>✔️ Fast Action Bonuses (Covers & Titles)</span>
-                        <span style="color: var(--text-light);">$19 Value</span>
-                    </li>
+            <div
+                style="margin-bottom: 40px; padding: 30px; background: white; border-radius: 15px; border-left: 6px solid var(--success); box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+                <h3 style="color: var(--success); font-size: 1.8rem; margin-top: 0;">⭐ Step 3: Format, Finalize &
+                    Publish</h3>
+                <p style="font-size: 1.2rem;">Make small edits if needed, organize your generated images, and format
+                    your project using Canva, Microsoft Word, Google Docs, or any layout tool you prefer. Then publish
+                    or use your finished content as:</p>
+                <ul style="list-style: none; padding-left: 0; font-size: 1.15rem; line-height: 1.8;">
+                    <li>📘 A massive interactive summer tracing workbook on Etsy & Amazon KDP</li>
+                    <li>🖨 A printable summer camp worksheet bundle</li>
+                    <li>📓 A screen-free logic workbook for preschool/kindergarten learners</li>
+                    <li>🎁 A fun educational road-trip gift for kids ages 5–10</li>
                 </ul>
-                
-                <div style="text-align: center; margin-top: 30px;">
-                    <p style="font-size: 16px; color: var(--text-light); text-decoration: line-through; margin-bottom: 5px;">Total Value: $112.00</p>
-                    <p style="font-size: 36px; color: var(--primary-dark); font-weight: 800; font-family: 'Lora', serif; margin-bottom: 20px;">Today Only: $13</p>
-                    <a href="https://warriorplus.com/o2/buy/n97y4b/kfnf63/gnlr4h" class="cta-button" style="font-size: 18px; padding: 15px 30px; width: 100%;">Give Me Instant Access</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Bonus Section -->
-    <section class="bonus-section">
-        <div class="container">
-            <h2>Wait... I Have A Special Bonus For You!</h2>
-            <p>To make sure you have absolutely <strong>everything</strong> you need to succeed, I'm including an
-                exclusive bonus if you act right now.</p>
-
-            <div class="bonus-box">
-                <h3>Fast Action Bonus:<br>Ready-To-Use Manga Book Covers & Title Ideas</h3>
-                <p class="mt-20">Don't waste time trying to design a cover from scratch or stressing over the perfect
-                    title. I'm handing over a collection of beautiful, customizable book cover templates alongside a
-                    swipe file of high-converting, irresistible manga titles.</p>
-                <p><strong>You can literally pick a prompt, grab a title, use a cover, and launch your story!</strong>
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Guarantee Section -->
-    <section class="guarantee-section">
-        <div class="container">
-            <div class="guarantee-box">
-                <span class="guarantee-icon">🛡️</span>
-                <h3>My Iron-Clad 7-Day Money-Back Guarantee</h3>
-                <p class="mt-20">I am so confident that these prompts will completely cure your writer's block and flood
-                    you with inspiration that I'm taking all the risk.</p>
-                <p>Try "365 Days of Manga Romance Story Prompts" for a full 7 days. If you don't feel completely
-                    inspired, or if you simply don't like it for any reason at all, just send me an email.</p>
-                <p class="fw-bold">I will happily refund every single penny. No questions asked, no hard feelings.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer Sign Off -->
-    <section class="footer-section">
-        <div class="container">
-            <div class="sign-off">
-                <p>Don't let another day pass by staring at a blank screen. Your readers are out there, waiting for your
-                    next great story. Let me help you give it to them.</p>
-                <p>Click the button below to get instant access right now.</p>
-
-                <div class="center-cta" style="margin: 40px 0;">
-                    <a href="https://warriorplus.com/o2/buy/n97y4b/kfnf63/gnlr4h" class="cta-button">Get Instant Access Now for $13!</a>
-                </div>
-
-                <p>To your success and endless creativity,</p>
-                <div class="signature">Maitri Ukawala</div>
-
-                <div
-                    style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #DDD; font-size: 16px; color: #666;">
-                    <p><strong>P.S.</strong> Have any questions or need support? You can always reach me personally at
-                        <a href="mailto:maitriukawala@gmail.com" class="support-email">maitriukawala@gmail.com</a>. I'm
-                        here to help you succeed!
-                    </p>
-
-                </div>
             </div>
 
-
+            <div
+                style="background-color: #fdfaf2; padding: 40px; border: 3px dashed var(--secondary); border-radius: 15px; text-align: center;">
+                <h3 style="color: #d19a12; font-size: 2rem; margin-top: 0;">🌟 Pro Strategy: Build a Complete Summer
+                    Learning Series</h3>
+                <p style="font-size: 1.3rem; font-weight: bold; margin-bottom: 15px;">Want to grow your brand or expand
+                    your KDP catalog?</p>
+                <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto; line-height: 1.7;">Start with the 480+ Kids'
+                    Screen-Free Activity Prompts, then naturally expand by organizing the 3 different difficulty levels into
+                    separate themed volumes. This makes it incredibly easy to continuously create and launch an entire
+                    library of bestselling logic books that drive repeat buyers!</p>
+            </div>
         </div>
-    </section>
 
-    <footer style="text-align: center; padding: 40px 20px; font-size: 14px; color: #666; border-top: 1px solid #E0E0E0; background-color: var(--bg-body);">
+        <!-- BONUSES SECTION (m4.png) -->
+        <div class="bonus-section">
+            <h2 class="text-center" style="color: var(--accent);">🎁 Bonus Action Takers Included!</h2>
+            <p class="text-center" style="font-size: 1.3rem;">Order today and receive these exclusive extras completely
+                free:</p>
+
+            <ul class="check-list">
+                <li><strong>Bonus 1:</strong> 4 Premium Printable Book Covers</li>
+                <li><strong>Bonus 2:</strong> Print Unlimited Times for Personal Use</li>
+                <li><strong>Bonus 3:</strong> Quick Start Printing Guide</li>
+            </ul>
+
+            <div class="text-center" style="margin-top: 40px;">
+                <img src="https://raw.githubusercontent.com/maitriukawala-sketch/Summer-Activity/main/m%204.png"
+                    class="product-img" style="border-color: white; max-width: 800px; box-shadow: none;"
+                    alt="Bonus Mockups">
+            </div>
+        </div>
+
+
+        <!-- VALUE STACK -->
+        <div class="value-stack" id="checkout">
+            <h2 class="text-center">Here is Everything You Get Today</h2>
+
+            <div class="value-row">
+                <span>480 Activity Prompts</span>
+                <span>$47 Value</span>
+            </div>
+            <div class="value-row">
+                <span>4 Different Book Categories</span>
+                <span>$19 Value</span>
+            </div>
+            <div class="value-row">
+                <span>4 Premium Book Covers</span>
+                <span>$9 Value</span>
+            </div>
+            <div class="value-row">
+                <span>Unlimited Printing Rights</span>
+                <span>Priceless</span>
+            </div>
+
+            <div class="text-center" style="margin-top: 30px;">
+                <p style="font-size: 1.5rem; text-decoration: line-through; color: var(--accent); margin-bottom: 0;">
+                    Total Value: $75+</p>
+                <p
+                    style="font-size: 3.5rem; font-family: 'Fredoka One', cursive; color: var(--success); margin: 0; line-height: 1;">
+                    Only $14 Today</p>
+
+                <a href="https://warriorplus.com/o2/buy/tmlmdf/nty5hw/kpdx2x" id="main-checkout-button" class="cta-btn"
+                    style="width: 100%; max-width: 500px; margin-top: 25px; font-size: 1.8rem;">Download Instantly
+                    Now</a>
+                <p style="font-size: 1.1rem; color: #888; font-weight: bold;">Secure Payment • Digital Delivery • PDF
+                    Format</p>
+            </div>
+        </div>
+
+        <!-- 7 DAY MONEY BACK GUARANTEE -->
+        <div class="guarantee-box">
+            <h3>🛡️ 7-Day Money Back Guarantee</h3>
+            <p style="font-size: 1.2rem; margin-bottom: 0;">
+                We are completely confident that you and your audience will love these prompts! But if you run into any
+                issues that our technical support can't solve within the first 7 days of purchase, just reach out to us
+                and we will offer a prompt refund. Purchase perfectly risk-free today!
+            </p>
+        </div>
+
+        <!-- FAQ -->
+        <h2 class="text-center" style="margin-top: 50px;">Frequently Asked Questions</h2>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div class="faq-item">
+                <div class="faq-q">Q: Is this a physical shipped product?</div>
+                <p class="faq-a">A: No, this is a digital instant download. You will receive access instantly after
+                    purchase so you can start right away.</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-q">Q: Do I need special software?</div>
+                <p class="faq-a">A: No you do not need to have any software, you need just chatGpt .</p>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-q">Q: Can teachers use it?</div>
+                <p class="faq-a">A: Yes! Teachers are absolutely welcome to use these printables and prompts for their
+                    classroom and students.</p>
+            </div>
+        </div>
+
+        <!-- FINAL CLOSE -->
+        <div class="text-center"
+            style="margin-top: 60px; padding: 50px; background: var(--success); color: white; border-radius: 15px;">
+            <h2 style="color: white; font-size: 2.8rem; margin-bottom: 30px;">Ready To Give Kids Hours of Smart Summer
+                Fun?</h2>
+            <a href="https://warriorplus.com/o2/buy/tmlmdf/nty5hw/kpdx2x" class="cta-btn"
+                style="background: var(--secondary); color: var(--text-dark); box-shadow: 0 8px 0px #d6b34a;">Yes, Give
+                Me Access For $14</a>
+        </div>
+
+    </div>
+
+    <!-- FOOTER LINKS -->
+    <footer class="site-footer">
         <p>
-            <a href="https://www.nextwiseai.com/privacy" target="_blank" style="color: #666; text-decoration: none;">Privacy Policy</a> |
-            <a href="https://www.nextwiseai.com/disclaimer" target="_blank" style="color: #666; text-decoration: none;">Disclaimer</a> |
-            <a href="https://www.nextwiseai.com/support" target="_blank" style="color: #666; text-decoration: none;">Support</a>
+            <a href="https://www.nextwiseai.com/privacy" target="_blank">Privacy Policy</a> |
+            <a href="https://www.nextwiseai.com/disclaimer" target="_blank">Disclaimer</a> |
+            <a href="https://www.nextwiseai.com/support" target="_blank">Support</a>
         </p>
         <p style="margin-top: 10px; font-weight: normal;">&copy; 2026 NextWise AI. All Rights Reserved.</p>
     </footer>
 
-    <script type="text/javascript" src="https://warriorplus.com/o2/disclaimer/n97y4b" defer></script><div class="wplus_spdisclaimer"></div>
+    <script type="text/javascript" src="https://warriorplus.com/o2/disclaimer/tmlmdf" defer></script><div class="wplus_spdisclaimer"></div>
 </body>
+
 </html>
